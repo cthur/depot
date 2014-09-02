@@ -20,7 +20,7 @@ class SessionsControllerTest < ActionController::TestCase
   end
   
   test "should logout" do
-    delete : destroy
+    delete :destroy
     assert_redirected_to store_url
   end
 
